@@ -165,8 +165,12 @@ body {
 .tip-percent-custom {
   background-color: var(--very-light-grayish-cyan);
   outline: none;
-  text-align: center;
+  text-align: end;
   color: var(--very-dark-cyan);
+}
+
+.tip-percent-custom:focus {
+  outline: 1px solid var(--strong-cyan);
 }
 
 .result-container {
@@ -220,6 +224,11 @@ body {
   font-size: 24px;
   font-weight: 700;
   background-color: var(--strong-cyan);
+}
+
+.reset-button:hover {
+  background-color: var(--light-grayish-cyan);
+  cursor: pointer;
 }
 
 .disabled {
