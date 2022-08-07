@@ -94,9 +94,7 @@ body {
   border-radius: 5px;
 }
 
-.input-container label input:focus {
-  outline: 1px solid var(--strong-cyan);
-}
+
 
 .input-container label input {
   background-color: var(--very-light-grayish-cyan);
