@@ -71,8 +71,8 @@ const handleResetClick = () => {
   totalBillInput.value = ''
   totalPeopleInput.value = ''
   tipPercentCustomInput.value = ''
-  totalStrong.innerText = '0.00'
-  tipAmountStrong.innerText = '0.00'
+  totalStrong.innerText = '$0.00'
+  tipAmountStrong.innerText = '$0.00'
 }
 
 const calculateTotalTip = () => {

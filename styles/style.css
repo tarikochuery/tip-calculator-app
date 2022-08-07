@@ -136,7 +136,7 @@ body {
 
 .tip-percent {
   width: 30%;
-  margin: 10px 5px;
+  margin: 5px;
   align-items: center;
   border: none;
   border-radius: 5px;
@@ -224,6 +224,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   background-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
 }
 
 .reset-button:hover {
@@ -267,5 +268,9 @@ body {
 
   .result-container {
     width: 100%;
+  }
+
+  .tip-percent {
+    width: 45%;
   }
 }
